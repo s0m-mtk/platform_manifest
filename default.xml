@@ -151,6 +151,7 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av-rr" groups="pdk" remote="rr-mtk" />
+  <project path="frameworks/base" name="android_frameworks_base-rr" groups="pdk-cw-fs,pdk-fs" remote="rr-mtk" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
