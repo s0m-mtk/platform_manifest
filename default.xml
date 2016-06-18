@@ -96,6 +96,7 @@
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
+  <project path="external/jpeg" name="ResurrectionRemix-mtk/android_external_jpeg-rr" groups="pdk" remote="rr-mtk" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
@@ -151,8 +152,8 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
-  <project path="frameworks/av" name="android_frameworks_av-rr" groups="pdk" revision="marshmallow-mtk" />
-  <project path="frameworks/base" name="android_frameworks_base-rr" groups="pdk-cw-fs,pdk-fs" revision="marshmallow-mtk" />
+  <project path="frameworks/av" name="ResurrectionRemix-mtk/android_frameworks_av-rr" groups="pdk" revision="marshmallow-mtk" />
+  <project path="frameworks/base" name="ResurrectionRemix-mtk/android_frameworks_base-rr" groups="pdk-cw-fs,pdk-fs" revision="marshmallow-mtk" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -160,7 +161,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="android_frameworks_native-rr" groups="pdk"  revision="marshmallow-mtk" />
+  <project path="frameworks/native" name="ResurrectionRemix-mtk/android_frameworks_native-rr" groups="pdk"  revision="marshmallow-mtk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -181,6 +182,7 @@
   <project path="frameworks/opt/cards" name="ResurrectionRemix/frameworks_opt_cards" remote="github" revision="marshmallow" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/rs" name="ResurrectionRemix-mtk/android_frameworks_rs-rr" groups="pdk" remote="rr-mtk />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
