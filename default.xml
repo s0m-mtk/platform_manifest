@@ -182,7 +182,7 @@
   <project path="frameworks/opt/cards" name="ResurrectionRemix/frameworks_opt_cards" remote="github" revision="marshmallow" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="ResurrectionRemix-mtk/android_frameworks_rs-rr" groups="pdk" remote="rr-mtk />
+  <project path="frameworks/rs" name="android_frameworks_rs-rr" groups="pdk" remote="rr-mtk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
