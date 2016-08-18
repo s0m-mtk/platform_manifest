@@ -47,7 +47,7 @@
   <project path="build" name="android_build-rr" groups="pdk" remote="rr-mtk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="platform_manifest" remote="som"/>
+  <project path="android" name="platform_manifest" remote="rr-mtk"/>
   <project path="bootable/recovery" name="android_bootable_recovery-rr" groups="pdk" remote="rr-mtk" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
