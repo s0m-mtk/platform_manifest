@@ -550,5 +550,6 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
-
+ <project path="device/Lenovo/S650" name="android_device_Lenovo_S650_ROW-rr" remote="rr-mtk" />
+ <project path="vendor/Lenovo/S650" name="android_device_Lenovo_S650_ROW-rr" remote="rr-mtk" />
 </manifest>
