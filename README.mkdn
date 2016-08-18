@@ -2,7 +2,7 @@
 
 ##### Initializing the RR repo and downloading the manifest
 
-      $  repo init -u https://github.com/tandob-mtk-mtk/platform_manifest.git -b marshmallow
+      $  repo init -u https://github.com/tandob-mtk/platform_manifest.git -b marshmallow
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~20GB]
