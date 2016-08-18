@@ -555,5 +555,5 @@
 <!-- END AOSP -->
 
  <project path="device/Lenovo/S650" name="android_device_Lenovo_S650_ROW-rr" remote="rr-mtk" />
- <project path="vendor/Lenovo/S650" name="android_vendor_Lenovo_S650_ROW-rr" remote="rr-mtk" />
+ <project path="vendor/Lenovo/S650" name="android_vendor_Lenovo_S650_ROW-rr" remote="rr-mtk" revision="master" />
 </manifest>
