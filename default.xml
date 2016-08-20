@@ -26,7 +26,7 @@
 	   revision="marshmallow" />
 
   <remote  name="som"
-	   fetch="https://github.com/tandob-mtk"
+	   fetch="https://github.com/s0m-mtk"
 	   revision="marshmallow" />
 	   
   <remote name="rr-d"
@@ -44,42 +44,42 @@
 	   sync-f="true" />
 
 <!-- BEGIN RR -->
-  <project path="build" name="android_build-rr" groups="pdk" remote="rr-mtk" >
+  <project path="build" name="android_build-rr" groups="pdk" remote="som" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="platform_manifest" remote="som"/>
   <project path="bootable/recovery" name="android_bootable_recovery-rr" groups="pdk" remote="rr-mtk" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
-  <project path="external/sepolicy" name="android_external_sepolicy-rr" groups="pdk" remote="rr-mtk" />
-  <project path="frameworks/av" name="android_frameworks_av-rr" groups="pdk" remote="rr-mtk" />
+  <project path="external/sepolicy" name="android_external_sepolicy-rr" groups="pdk" remote="som" />
+  <project path="frameworks/av" name="android_frameworks_av-rr" groups="pdk" remote="som" />
   <project path="frameworks/base" name="android_frameworks_base-rr" groups="pdk-cw-fs,pdk-fs" remote="som" />
-  <project path="frameworks/native" name="android_frameworks_native-rr" groups="pdk"  remote="rr-mtk" />
+  <project path="frameworks/native" name="android_frameworks_native-rr" groups="pdk"  remote="som" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony-rr" groups="pdk" remote="rr-mtk" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware-rr" groups="pdk" remote="rr-mtk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony-rr" groups="pdk" remote="som" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware-rr" groups="pdk" remote="som" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="rr" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio-rr" groups="pdk-fs" remote="rr-mtk" />
-  <project path="packages/apps/Gello" name="android_packages_apps_Gello-rr" remote="rr-mtk" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio-rr" groups="pdk-fs" remote="som" />
+  <project path="packages/apps/Gello" name="android_packages_apps_Gello" remote="cm" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="rr"  />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
   <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="rr" />
   <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="rr" />
-  <project path="packages/apps/Screencast" name="android_packages_apps_Screencast-rr" remote="rr-mtk" />
+  <project path="packages/apps/Screencast" name="android_packages_apps_Screencast-rr" remote="som" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings-rr" groups="pdk-fs" remote="som"/>
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="rr" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="rr-mtk" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="som" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="rr" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rr" />
-  <project path="system/bt" name="android_system_bt-rr" groups="pdk" remote="rr-mtk" />
-  <project path="system/core" name="android_system_core-rr" groups="pdk" remote="rr-mtk" />
-  <project path="system/media" name="android_system_media-rr" groups="pdk" remote="rr-mtk" />
-  <project path="system/netd" name="android_system_netd-rr" groups="pdk" remote="rr-mtk" />
-  <project path="system/vold" name="android_system_vold-rr" groups="pdk" remote="rr-mtk" />
+  <project path="system/bt" name="android_system_bt-rr" groups="pdk" remote="som" />
+  <project path="system/core" name="android_system_core-rr" groups="pdk" remote="som" />
+  <project path="system/media" name="android_system_media-rr" groups="pdk" remote="som" />
+  <project path="system/netd" name="android_system_netd-rr" groups="pdk" remote="som" />
+  <project path="system/vold" name="android_system_vold-rr" groups="pdk" remote="som" />
   <project path="vendor/cm" name="android_vendor_resurrection" remote="rr" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="rr" />
   <project path="packages/services/ThemeManagerService" name="android_packages_services_ThemeManagerService" remote="rr" />
