@@ -61,7 +61,7 @@
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="rr" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="rr" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio-rr" groups="pdk-fs" remote="som" />
-  <project path="packages/apps/Gello" name="android_packages_apps_Gello" remote="cm" />
+  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="rr"  />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="rr" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="rr" />
