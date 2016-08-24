@@ -53,6 +53,7 @@
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
   <project path="external/sepolicy" name="android_external_sepolicy-rr" groups="pdk" remote="som" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8-rr" groups="pdk" remote="som" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="frameworks/av" name="android_frameworks_av-rr" groups="pdk" remote="som" />
   <project path="frameworks/base" name="android_frameworks_base-rr" groups="pdk-cw-fs,pdk-fs" remote="som" />
   <project path="frameworks/native" name="android_frameworks_native-rr" groups="pdk"  remote="som" />
@@ -116,7 +117,6 @@
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/chromium-webview" name="CyanogenMod/android_external_chromium-webview" clone-depth="1" />
   <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
