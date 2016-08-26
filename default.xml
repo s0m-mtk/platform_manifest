@@ -560,5 +560,5 @@
 <!-- END AOSP -->
 
  <project path="device/huawei/g750t01" name="android_device_huawei_g750t01" remote="ferhung-mtk" revision="cm-13.0" />
- <project path="vendor/huawei/g750t01" name="android_vendor_huawei_g750t01" remote="ferhung-mtk" revision="cm-13.0" />
+ <project path="vendor/huawei/g750t01" name="android_vendor_huawei_g750t01" remote="s0m-mtk" revision="cm-13.0" />
 </manifest>
