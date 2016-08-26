@@ -555,6 +555,6 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
- <project path="device/Micromax/E313" name="android_device_Micromax_E313" remote="som" />
- <project path="vendor/Micromax/E313" name="android_vendor_Micromax_E313" remote="som" />
+ <project path="device/huawei/g750t01" name="android_device_huawei_g750t01" remote="ferhung-mtk" />
+ <project path="vendor/huawei/g750t01" name="android_vendor_huawei_g750t01" remote="ferhung-mtk" />
 </manifest>
