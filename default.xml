@@ -62,7 +62,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy-rr" groups="pdk" remote="som" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8-rr" groups="pdk" remote="som" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  <project path="frameworks/av" name="android_frameworks_av-rr" groups="pdk" remote="som" />
+  <project path="frameworks/av" name="android_frameworks_av-mtk" groups="pdk" remote="fire855" revision="cm-13.0-mt6592" />
   <project path="frameworks/base" name="android_frameworks_base-rr" groups="pdk-cw-fs,pdk-fs" remote="som" />
   <project path="frameworks/native" name="android_frameworks_native-rr" groups="pdk"  remote="som" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
