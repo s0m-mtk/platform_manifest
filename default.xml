@@ -25,6 +25,10 @@
 	   fetch="https://github.com/ResurrectionRemix-mtk"
 	   revision="marshmallow" />
 
+  <remote  name="ferhung-mtk"
+	   fetch="https://github.com/ferhung-mtk"
+	   revision="cm-13.0" />
+	   
   <remote  name="som"
 	   fetch="https://github.com/s0m-mtk"
 	   revision="marshmallow" />
